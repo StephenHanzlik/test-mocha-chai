@@ -13,7 +13,7 @@ describe('twoSum', () => {
 
   //input is an array of ints
   it('should take an array of itengers and a target integer', () => {
-    expect(code.twoSum('Laura')).to.equal('Function needs proper input');
+    expect(code.twoSum('I am a string')).to.equal('Function needs proper input');
     expect(code.twoSum(true)).to.equal('Function needs proper input');
     expect(code.twoSum(NaN)).to.equal('Function needs proper input');
     expect(code.twoSum(undefined)).to.equal('Function needs proper input');
